@@ -37,6 +37,7 @@ namespace WindowsFormsApp1
             this.TwentyDollars = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pbMilkshake = new System.Windows.Forms.PictureBox();
+            this.btnLeftOver = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -160,11 +161,22 @@ namespace WindowsFormsApp1
             this.pbMilkshake.TabStop = false;
             this.pbMilkshake.Click += new System.EventHandler(this.pbMilkshake_Click);
             // 
+            // btnLeftOver
+            // 
+            this.btnLeftOver.Location = new System.Drawing.Point(884, 133);
+            this.btnLeftOver.Name = "btnLeftOver";
+            this.btnLeftOver.Size = new System.Drawing.Size(152, 78);
+            this.btnLeftOver.TabIndex = 19;
+            this.btnLeftOver.Text = "button1";
+            this.btnLeftOver.UseVisualStyleBackColor = true;
+            this.btnLeftOver.Click += new System.EventHandler(this.btnLeftOver_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1056, 518);
+            this.Controls.Add(this.btnLeftOver);
             this.Controls.Add(this.pbMilkshake);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.TwentyDollars);
@@ -200,6 +212,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button TwentyDollars;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.PictureBox pbMilkshake;
+        private System.Windows.Forms.Button btnLeftOver;
         //private System.Windows.Forms.TextBox tbMessage;
     }
 }

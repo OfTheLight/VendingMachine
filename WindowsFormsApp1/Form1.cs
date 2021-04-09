@@ -42,7 +42,7 @@ namespace WindowsFormsApp1
         {
             dBalance -= 5.39;
             update_balance();
-            textBox2.Text = "You bought 1 McChicken.";
+            textBox2.Text += "You bought 1 McChicken.\r\n";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -105,28 +105,33 @@ namespace WindowsFormsApp1
         {
             dBalance -= 2.25;
             update_balance();
-            textBox2.Text = "You bought 1 Big Mac.";
+            textBox2.Text += "You bought 1 Big Mac.\r\n";
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             dBalance -= 3.79;
             update_balance();
-            textBox2.Text = "You bought 1 Quarter Pounder.";
+            textBox2.Text += "You bought 1 Quarter Pounder.\r\n";
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             dBalance -= 5.59;
             update_balance();
-            textBox2.Text = "You bought 6 Chicken McNuggets.";
+            textBox2.Text += "You bought 6 Chicken McNuggets.\r\n";
         }
 
         private void pbMilkshake_Click(object sender, EventArgs e)
         {
             dBalance -= 2.21;
             update_balance();
-            textBox2.Text = "You bought 1 Milkshake.";
+            textBox2.Text += "You bought 1 Milkshake.\r\n";
+        }
+
+        private void btnLeftOver_Click(object sender, EventArgs e)
+        {
+            textBox2.Text += "Your leftover is" + dBalance.ToString("n2");
         }
     }
 }
