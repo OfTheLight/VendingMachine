@@ -26,121 +26,123 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pbBigMac = new System.Windows.Forms.PictureBox();
+            this.pbChickenBrg = new System.Windows.Forms.PictureBox();
+            this.pbQuarterPounder = new System.Windows.Forms.PictureBox();
+            this.pbChickenNugget = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.OneDollar = new System.Windows.Forms.Button();
-            this.FiveDollars = new System.Windows.Forms.Button();
-            this.TenDollars = new System.Windows.Forms.Button();
-            this.TwentyDollars = new System.Windows.Forms.Button();
+            this.btnOneDollar = new System.Windows.Forms.Button();
+            this.btnFiveDollars = new System.Windows.Forms.Button();
+            this.btnTenDollars = new System.Windows.Forms.Button();
+            this.btnTwenDollars = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pbMilkshake = new System.Windows.Forms.PictureBox();
             this.btnLeftOver = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.pbFries = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBigMac)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChickenBrg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbQuarterPounder)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChickenNugget)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMilkshake)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFries)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // pbBigMac
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(197, 159);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pbBigMac.Image = ((System.Drawing.Image)(resources.GetObject("pbBigMac.Image")));
+            this.pbBigMac.Location = new System.Drawing.Point(12, 9);
+            this.pbBigMac.Name = "pbBigMac";
+            this.pbBigMac.Size = new System.Drawing.Size(197, 159);
+            this.pbBigMac.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbBigMac.TabIndex = 3;
+            this.pbBigMac.TabStop = false;
+            this.pbBigMac.Click += new System.EventHandler(this.pbBigMac_Click);
             // 
-            // pictureBox2
+            // pbChickenBrg
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(235, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(197, 165);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pbChickenBrg.Image = ((System.Drawing.Image)(resources.GetObject("pbChickenBrg.Image")));
+            this.pbChickenBrg.Location = new System.Drawing.Point(235, 12);
+            this.pbChickenBrg.Name = "pbChickenBrg";
+            this.pbChickenBrg.Size = new System.Drawing.Size(197, 165);
+            this.pbChickenBrg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbChickenBrg.TabIndex = 4;
+            this.pbChickenBrg.TabStop = false;
+            this.pbChickenBrg.Click += new System.EventHandler(this.pbChickenBrg_Click);
             // 
-            // pictureBox3
+            // pbQuarterPounder
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(12, 192);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(214, 142);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pbQuarterPounder.Image = ((System.Drawing.Image)(resources.GetObject("pbQuarterPounder.Image")));
+            this.pbQuarterPounder.Location = new System.Drawing.Point(12, 183);
+            this.pbQuarterPounder.Name = "pbQuarterPounder";
+            this.pbQuarterPounder.Size = new System.Drawing.Size(197, 156);
+            this.pbQuarterPounder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbQuarterPounder.TabIndex = 5;
+            this.pbQuarterPounder.TabStop = false;
+            this.pbQuarterPounder.Click += new System.EventHandler(this.pbQuarterPounder_Click);
             // 
-            // pictureBox4
+            // pbChickenNugget
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(235, 192);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(205, 173);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox4.TabIndex = 6;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.pbChickenNugget.Image = ((System.Drawing.Image)(resources.GetObject("pbChickenNugget.Image")));
+            this.pbChickenNugget.Location = new System.Drawing.Point(235, 183);
+            this.pbChickenNugget.Name = "pbChickenNugget";
+            this.pbChickenNugget.Size = new System.Drawing.Size(197, 156);
+            this.pbChickenNugget.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pbChickenNugget.TabIndex = 6;
+            this.pbChickenNugget.TabStop = false;
+            this.pbChickenNugget.Click += new System.EventHandler(this.pbChickenNugget_Click);
             // 
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Rockwell", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(476, 12);
+            this.textBox1.Location = new System.Drawing.Point(476, 39);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(389, 39);
             this.textBox1.TabIndex = 8;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // OneDollar
+            // btnOneDollar
             // 
-            this.OneDollar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OneDollar.Location = new System.Drawing.Point(476, 77);
-            this.OneDollar.Name = "OneDollar";
-            this.OneDollar.Size = new System.Drawing.Size(183, 100);
-            this.OneDollar.TabIndex = 9;
-            this.OneDollar.Text = "$1.00";
-            this.OneDollar.UseVisualStyleBackColor = true;
-            this.OneDollar.Click += new System.EventHandler(this.button3_Click);
+            this.btnOneDollar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOneDollar.Location = new System.Drawing.Point(476, 103);
+            this.btnOneDollar.Name = "btnOneDollar";
+            this.btnOneDollar.Size = new System.Drawing.Size(183, 100);
+            this.btnOneDollar.TabIndex = 9;
+            this.btnOneDollar.Text = "$1.00";
+            this.btnOneDollar.UseVisualStyleBackColor = true;
+            this.btnOneDollar.Click += new System.EventHandler(this.btnOneDollar_Click);
             // 
-            // FiveDollars
+            // btnFiveDollars
             // 
-            this.FiveDollars.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FiveDollars.Location = new System.Drawing.Point(682, 77);
-            this.FiveDollars.Name = "FiveDollars";
-            this.FiveDollars.Size = new System.Drawing.Size(183, 100);
-            this.FiveDollars.TabIndex = 10;
-            this.FiveDollars.Text = "$5.00";
-            this.FiveDollars.UseVisualStyleBackColor = true;
-            this.FiveDollars.Click += new System.EventHandler(this.button4_Click);
+            this.btnFiveDollars.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFiveDollars.Location = new System.Drawing.Point(682, 103);
+            this.btnFiveDollars.Name = "btnFiveDollars";
+            this.btnFiveDollars.Size = new System.Drawing.Size(183, 100);
+            this.btnFiveDollars.TabIndex = 10;
+            this.btnFiveDollars.Text = "$5.00";
+            this.btnFiveDollars.UseVisualStyleBackColor = true;
+            this.btnFiveDollars.Click += new System.EventHandler(this.btnFiveDollars_Click);
             // 
-            // TenDollars
+            // btnTenDollars
             // 
-            this.TenDollars.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TenDollars.Location = new System.Drawing.Point(476, 211);
-            this.TenDollars.Name = "TenDollars";
-            this.TenDollars.Size = new System.Drawing.Size(183, 107);
-            this.TenDollars.TabIndex = 11;
-            this.TenDollars.Text = "$10.00";
-            this.TenDollars.UseVisualStyleBackColor = true;
-            this.TenDollars.Click += new System.EventHandler(this.button5_Click);
+            this.btnTenDollars.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTenDollars.Location = new System.Drawing.Point(476, 224);
+            this.btnTenDollars.Name = "btnTenDollars";
+            this.btnTenDollars.Size = new System.Drawing.Size(183, 107);
+            this.btnTenDollars.TabIndex = 11;
+            this.btnTenDollars.Text = "$10.00";
+            this.btnTenDollars.UseVisualStyleBackColor = true;
+            this.btnTenDollars.Click += new System.EventHandler(this.btnTenDollars_Click);
             // 
-            // TwentyDollars
+            // btnTwenDollars
             // 
-            this.TwentyDollars.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TwentyDollars.Location = new System.Drawing.Point(682, 211);
-            this.TwentyDollars.Name = "TwentyDollars";
-            this.TwentyDollars.Size = new System.Drawing.Size(183, 107);
-            this.TwentyDollars.TabIndex = 12;
-            this.TwentyDollars.Text = "$20.00";
-            this.TwentyDollars.UseVisualStyleBackColor = true;
-            this.TwentyDollars.Click += new System.EventHandler(this.button6_Click);
+            this.btnTwenDollars.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTwenDollars.Location = new System.Drawing.Point(682, 224);
+            this.btnTwenDollars.Name = "btnTwenDollars";
+            this.btnTwenDollars.Size = new System.Drawing.Size(183, 107);
+            this.btnTwenDollars.TabIndex = 12;
+            this.btnTwenDollars.Text = "$20.00";
+            this.btnTwenDollars.UseVisualStyleBackColor = true;
+            this.btnTwenDollars.Click += new System.EventHandler(this.btnTwenDollars_Click);
             // 
             // textBox2
             // 
@@ -149,6 +151,7 @@ namespace WindowsFormsApp1
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(389, 169);
             this.textBox2.TabIndex = 17;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // pbMilkshake
             // 
@@ -163,56 +166,71 @@ namespace WindowsFormsApp1
             // 
             // btnLeftOver
             // 
-            this.btnLeftOver.Location = new System.Drawing.Point(884, 133);
+            this.btnLeftOver.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeftOver.Location = new System.Drawing.Point(881, 23);
             this.btnLeftOver.Name = "btnLeftOver";
             this.btnLeftOver.Size = new System.Drawing.Size(152, 78);
             this.btnLeftOver.TabIndex = 19;
-            this.btnLeftOver.Text = "button1";
+            this.btnLeftOver.Text = "Leftover";
             this.btnLeftOver.UseVisualStyleBackColor = true;
             this.btnLeftOver.Click += new System.EventHandler(this.btnLeftOver_Click);
+            // 
+            // pbFries
+            // 
+            this.pbFries.Image = ((System.Drawing.Image)(resources.GetObject("pbFries.Image")));
+            this.pbFries.Location = new System.Drawing.Point(18, 350);
+            this.pbFries.Name = "pbFries";
+            this.pbFries.Size = new System.Drawing.Size(191, 156);
+            this.pbFries.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbFries.TabIndex = 20;
+            this.pbFries.TabStop = false;
+            this.pbFries.Click += new System.EventHandler(this.pbFries_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1056, 518);
+            this.Controls.Add(this.pbFries);
             this.Controls.Add(this.btnLeftOver);
             this.Controls.Add(this.pbMilkshake);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.TwentyDollars);
-            this.Controls.Add(this.TenDollars);
-            this.Controls.Add(this.FiveDollars);
-            this.Controls.Add(this.OneDollar);
+            this.Controls.Add(this.btnTwenDollars);
+            this.Controls.Add(this.btnTenDollars);
+            this.Controls.Add(this.btnFiveDollars);
+            this.Controls.Add(this.btnOneDollar);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbChickenNugget);
+            this.Controls.Add(this.pbQuarterPounder);
+            this.Controls.Add(this.pbChickenBrg);
+            this.Controls.Add(this.pbBigMac);
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBigMac)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChickenBrg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbQuarterPounder)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbChickenNugget)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbMilkshake)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbFries)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pbBigMac;
+        private System.Windows.Forms.PictureBox pbChickenBrg;
+        private System.Windows.Forms.PictureBox pbQuarterPounder;
+        private System.Windows.Forms.PictureBox pbChickenNugget;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button OneDollar;
-        private System.Windows.Forms.Button FiveDollars;
-        private System.Windows.Forms.Button TenDollars;
-        private System.Windows.Forms.Button TwentyDollars;
+        private System.Windows.Forms.Button btnOneDollar;
+        private System.Windows.Forms.Button btnFiveDollars;
+        private System.Windows.Forms.Button btnTenDollars;
+        private System.Windows.Forms.Button btnTwenDollars;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.PictureBox pbMilkshake;
         private System.Windows.Forms.Button btnLeftOver;
+        private System.Windows.Forms.PictureBox pbFries;
         //private System.Windows.Forms.TextBox tbMessage;
     }
 }
